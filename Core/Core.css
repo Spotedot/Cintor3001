@@ -1,10 +1,7 @@
-/* Rounded Status buttons*/
 @import url(https://raw.githack.com/codedotspectra/themes/master/mini-themes/statusRounded.css);
 
-/* Who knows */
 @import url(https://raw.githack.com/codedotspectra/themes/master/mini-themes/hljs.css);
 
-/* Custom Settings tab look */
 @import url(https://raw.githack.com/codedotspectra/themes/master/mini-themes/settingsIcons.css);
 
 :root {
@@ -42,19 +39,6 @@
   }
 }
 
-
-#friends,.activityFeed-1C0EmJ,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD {
-  background-color: var(--backgroundDark)!important;
-}
-
-.container-1r6BKw {
-	backgtroundcolor: var (--red);	
-}
-
-.children-19S4PO {
-	backgtroundcolor: var (--red);	
-}
-
 /* Home Button Background - new options */
 #app-mount .wrapper-1Rf91z,
 #app-mount .button-OhfaWu.wrapper-1BJsBx,
@@ -84,6 +68,9 @@
 }
 
 
+#friends,.activityFeed-1C0EmJ,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD {
+  background-color: var(--backgroundDark)!important;
+}
 
 .multipleIconWrapper-2TXVB4,.outer-2IVh5n,.recentlyPlayedContainer-2F3MqS,.section-3TvauS,.unwrapped-37iUtM {
   background-color: var(--backgroundDark)!important;
@@ -194,11 +181,7 @@
   background-image: none!important;
 }
 
-.containerCozy-jafyvG {
-	
-}
-
-.containerCozyBounded-1rKFAn {
+.containerCozy-jafyvG, .containerCozyBounded-1rKFAn {
 	
 }
 
@@ -748,16 +731,9 @@
   box-shadow: 0 0 3px 3px rgba(0,0,.4)!important;
 }
 
-.mediaBarGrabber-1FqnbN {
+/* change01 */
+.mediaBarGrabber-1FqnbN,.mediaBarProgress-1xaPtl,.mediaBarProgress-1xaPtl:after,.mediaBarProgress-1xaPtl:before {
   background-color: var(--atquote)!important;
-}
-
-.mediaBarProgress-1xaPtl {
-	background-color: var(--red)!important;
-}
-
-.mediaBarProgress-1xaPtl:after,.mediaBarProgress-1xaPtl:before {
-  background-color: var(--red)!important;
 }
 
 .option-1l2vXE {
@@ -1083,8 +1059,8 @@
   background-color: var(--backgroundDark)!important;
 }
 
-.elevationHigh-1PneE4[style*="32, 34, 37"] {
-  background-color: var(--backgroundDark)!important;
+.elevationHigh-1PneE4[style*="20, 20, 20"] {
+  background-color: var(--backgroundDark);
   box-shadow: 0 0 3.5px 1.5px rgba(0,0,0,.5)!important;
 }
 
@@ -1486,3 +1462,104 @@ svg[name=Nitro] g path {
   overflow: hidden;
 }
 
+/* #################################################################################################
+   Change02 
+   ###############################################################################################*/
+
+.children-19S4PO:after {
+  display: none;
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after {
+  content: "";
+  height: 2px;
+  width: 98.5%;
+  border-radius: 50px;
+  bottom: 0;
+  position: absolute;
+  background-color: transparent;
+  background-image: linear-gradient(to right,var(--primaryGradient3),var(--primaryGradient2));
+  transform: translateX(-250px);
+  transition: all .2s ease;
+}
+ 
+ .content-3at_AU::after {
+  content: "";
+  height: 2px;
+  width: 98.5%;
+  border-radius: 50px;
+  bottom: 0;
+  left: 7.5px;
+  position: absolute;
+  background-color: transparent;
+  background-image: linear-gradient(to right,var(--primaryGradient2),var(--primaryGradient3));
+  transform: translateX(-250px);
+  transition: all .2s ease;
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,.wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: rgba(0,0,0,.25)!important;
+}
+
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU{
+  background-color: rgba(0,0,0,.45)!important;
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover::after,.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ::after,.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after,.wrapper-1ucjTd:hover .content-3at_AU::after {
+  transform: translateX(0);
+}
+
+.container-1r6BKw {
+  background: var(--backgroundDark)!important;
+}
+
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+  background-image: linear-gradient(to right,var(--primaryGradient3),var(--primaryGradient3));
+}
+
+.base-3dtUhz {
+  border-radius: 0!important;
+}
+
+.children-19S4PO:after,.gradientOverlay-298TBM {
+  display: none;
+}
+
+.tile-QA_yMc {
+  background: var(--backgroundDarker)!important;
+}
+
+.container-1r6BKw {
+  background: var(--backgroundDark)!important;
+}
+
+.topPill-30KHOu .item-PXvHYJ {
+  border-radius: 20px;
+}
+
+/* Setting Selection Colour */
+.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
+  background-image: linear-gradient(to left,var(--primaryGradient2),var(--primaryGradient3));
+}
+
+.itemBackground-2vEldQ:before {
+  background: radial-gradient(ellipse at top,rgba(54,57,63,0),var(--backgroundDark)),linear-gradient(90deg,var(--backgroundDark) 0,rgba(54,57,63,0) 40%,rgba(54,57,63,0) 60%,var(--backgroundDark)),linear-gradient(0deg,var(--backgroundDark) 0,rgba(54,57,63,0) 25%)!important;
+}
+
+.macButtons-2MuSAC {
+  background-color: var(--backgroundDark);
+}
+
+/* Home Search options */
+.inner-3ErfOT, .input-1Rv96N, .input-3Xdcic{
+	background: var(--backgroundDark1);
+	border-color: var(--red);
+}
+
+.bar-30k2ka {
+	background: var(--backgroundDarker);
+}
+
+.bar-30k2ka:hover {
+	background: var(--blue);
+}
