@@ -54,6 +54,28 @@
 	background-color:var(--atquote);
 }
 
+/* New Banner change for Boosted servers */
+.app-2rEoOp .bannerImage-1jOskm {
+    -webkit-mask-image: linear-gradient(#000 0%, transparent 100%);
+    mask-image: linear-gradient(#000 0%, transparent 100%);
+}
+.theme-dark .header-2o-2hj {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.themedPopout-25DgLi {
+	background-color: var(--backgroundDark)!important;
+}
+
+ .css-bdfdb-menuOuter , .css-ua3v5p-menu {
+	background-color: var(--backgroundDark1)!important;
+}
+
+.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.da-scroller.da-firefoxFixScrollFlex.systemPad-3UxEGl.da-systemPad.scroller-1-nKid {
+	background-color: var(--backgroundDark)!important;
+}
+
+
 .roleCircleButton-377y0l {
 	padding: 0;
 	position: absolute;
