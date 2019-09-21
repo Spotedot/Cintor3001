@@ -44,10 +44,35 @@
 #app-mount .button-OhfaWu.wrapper-1BJsBx,
 #app-mount .button-OhfaWu.selected-wSa2KV.wrapper-1BJsBx {background: transparent}
 
+.childWrapper-anI2G9 {
+	background: transparent
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+	background: transparent
+}
+
 /* Mention Baground and Side options */
 .da-isMentionedCozy {
 	background:var(--blue) !important;
 }
+
+/* New theme elements baground matching changes */
+.panels-j1Uci_, .messages-3amgkR, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .headerBar-UHpsPw, .searchBar-6Kv8R2,
+.contentRegionScroller-26nc1e  {
+	background: var(--backgroundDark)!important;
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+	background: var(--backgroundDark)!important;
+}
+/* ------------------------------------------ */
+
+/* Folders */
+.expandedFolderBackground-2sPsd-, .expandedFolderIconWrapper-1xLaU-, .closedFolderIconWrapper-15K9MK {
+	background: var(--backgroundUnique)!important;
+}
+
 
 .da-isMentionedCozy:after {
 	border-color:var(--atquote);
