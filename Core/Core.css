@@ -59,7 +59,7 @@
 
 /* New theme elements baground matching changes */
 .panels-j1Uci_, .messages-3amgkR, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .headerBar-UHpsPw, .searchBar-6Kv8R2,
-.contentRegionScroller-26nc1e  {
+.contentRegionScroller-26nc1e, .messagesPopout-24nkyi  {
 	background: var(--backgroundDark)!important;
 }
 
