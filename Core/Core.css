@@ -76,7 +76,7 @@ svg[name="Folder"],
 svg[name="Activity"],
 svg[name="Library"],
 svg[name="NitroWheel"],
-svg[name="PersonWaving"]{ {
+svg[name="PersonWaving"]{
 	color: var(--atquote)!important;
 }
 
