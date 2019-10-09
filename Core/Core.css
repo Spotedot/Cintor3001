@@ -59,8 +59,12 @@
 
 /* New theme elements baground matching changes */
 .panels-j1Uci_, .messages-3amgkR, .friendsTable-133bsv .friendsTableBody-1ZhKif, .scroller-1JbKMe, .headerBar-UHpsPw, .searchBar-6Kv8R2,
-.contentRegionScroller-26nc1e, .messagesPopout-24nkyi  {
+.contentRegionScroller-26nc1e, .messagesPopout-24nkyi, .scroller-zPkAnE {
 	background: var(--backgroundDark)!important;
+}
+
+.themedPopout-1TrfdI {
+	background: var(--backgroundDarker)!important;
 }
 
 .theme-dark .modal-yWgWj-, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
@@ -306,7 +310,7 @@ svg[name="PersonWaving"]{
   background-color: var(--backgroundDark)!important;
   box-shadow: inset 0 0 100000px rgba(0,0,0,.5);
   border: 1px solid rgba(0,0,0,.25)!important;
-  border-radius: 50px!important;
+  border-radius: 25px!important;
   padding: 1px 4px 1px 4px;
 }
 
@@ -326,7 +330,7 @@ svg[name="PersonWaving"]{
 .quickMessage-1yeL4E {
   background-color: rgba(0,0,0,.25)!important;
   border: 1px solid rgba(0,0,0,.25)!important;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 
 .note-3kmerW textarea:focus {
@@ -423,7 +427,7 @@ svg[name="PersonWaving"]{
 .wrapper-3WhCwL {
   background-color: rgba(0,0,0,.23)!important;
   color: var(--primary	)!important;
-  border-radius: 50px;
+  border-radius: 25px;
   padding: .5px 5px .5px 5px;
   transition: all .2s ease;
 }
@@ -533,7 +537,7 @@ svg[name="PersonWaving"]{
 }
 
 .emojiPicker-3m1S-j .header-1nkwgG .search-bar .search-bar-inner {
-  border-radius: 50px!important;
+  border-radius: 25px!important;
 }
 
 .ace-monokai {
@@ -564,7 +568,7 @@ svg[name="PersonWaving"]{
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action,#friends .tab-bar.tab-bar-desktop .tab-bar-item,.app button,.bd-modal-wrapper .footer button,.button-3To2tQ,.connectionDelete-2Odoln,.lookFilled-1Gx00P,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookOutlined-3sRXeN,.questionMark-CWEQZn {
-  border-radius: 50px!important;
+  border-radius: 25px!important;
 }
 
 #bd-settingspane-container .bd-pfbtn,.bd-detached-css-editor #bd-customcss-attach-controls button,.bd-modal-wrapper .footer button,.bda-slist .bda-footer button,.headerButtonColor-G7_f-V,.lookFilled-1Gx00P.colorBrand-3pXr91,.lookFilled-1Gx00P.colorPrimary-3b3xI6,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorBrand-3pXr91,.plugin-settings button,.questionMark-CWEQZn,.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,.tabBar-1E2ExX .primary-3j8BhM {
@@ -635,7 +639,7 @@ svg[name="PersonWaving"]{
   content: "";
   height: 2px;
   width: 98.5%;
-  border-radius: 50px;
+  border-radius: 25px;
   bottom: 5px;
   left: 1px;
   position: absolute;
@@ -649,7 +653,7 @@ svg[name="PersonWaving"]{
   content: "";
   height: 2px;
   width: 98.5%;
-  border-radius: 50px;
+  border-radius: 25px;
   bottom: 0;
   left: 7.5px;
   position: absolute;
@@ -777,7 +781,7 @@ svg[name="PersonWaving"]{
 }
 
 .inner-zqa7da,.innerNoAutocomplete-1WpcVO {
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: rgba(0,0,0,.25)!important;
   border: 1px solid rgba(0,0,0,.25);
 }
@@ -798,7 +802,7 @@ svg[name="PersonWaving"]{
 }
 
 .option-1l2vXE {
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: rgba(0,0,0,.25)!important;
   transition: ease-in-out .25s all;
 }
@@ -821,7 +825,7 @@ svg[name="PersonWaving"]{
 }
 
 .container-3PXSwK {
-  border-radius: 50px;
+  border-radius: 25px;
   background: linear-gradient(to right,var(--primaryGradient3),var(--primaryGradient2))!important;
 }
 
