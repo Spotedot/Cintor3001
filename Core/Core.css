@@ -724,7 +724,7 @@ svg[name="PersonWaving"]{
   transition: all .2s ease;
 }
 
-.channel-2QD9_O::after,.content-20Aix8::after {
+.content-20Aix8::after {
   content: "";
   height: 2px;
   width: 98.5%;
