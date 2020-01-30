@@ -39,6 +39,32 @@
   }
 }
 
+/* 30/01/2020 Updates */
+
+/*Message box */ 
+.scrollableContainer-2NUZem {
+  background-color: var(--background-overlay);
+  border: 2px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+}
+
+/* Friends List */
+.mask-1l8v16 { filter: none; } .theme-dark .container-1D34oG { background-color: transparent; } .peopleList-3c4jOR { background-color: rgba(0, 0, 0, 0.2); } .nowPlayingColumn-2sl4cE { background-color: rgba(0, 0, 0, 0.2); min-width: 240px; } .wrapper-Lii66c { border: none !important; } .popoutContainer-3WC9HR:hover, .theme-dark .wrapper-3UweLa, .actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE { background-color: rgba(0, 0, 0, 0.2); } .theme-dark .separator-2c4hi3 { display: none; } .theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .popout-3G62UL, .popoutContainer-3WC9HR { background-color: rgba(1,1,1,0.2); }
+.itemCard-v9viV7 {
+background-color: #121212 !important;}
+.peopleListItem-2nzedh:hover {
+background: #121212 !important;}
+.theme-dark .popout-13LQ_3 {
+background-color: #121212 !important;}
+.theme-dark .enabled-1t_Gxm:hover {
+background-color: var(--uiGradient1) !important;
+box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
+}
+
+.scroller-2FKFPG, .firefoxFixScrollFlex-cnI2ix, .scrollerStore-390omS, .momentum-2CXCBH, .systemPad-3UxEGl, .scroller-9moviB {
+	  background-color: var(--background-overlay);
+}
+
 /* Home Button Background - new options */
 #app-mount .wrapper-1Rf91z,
 #app-mount .button-OhfaWu.wrapper-1BJsBx,
