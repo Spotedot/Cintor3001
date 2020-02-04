@@ -185,7 +185,7 @@ box-shadow: inset 0 0 100000px 0 rgba(0,0,0,.25);
 }
 
 /* Mention Baground and Side options */
-.da-isMentionedCozy {
+.da-isMentionedCozy, .mentioned-xhSam7 {
 	background:var(--blue) !important;
 }
 
@@ -231,7 +231,7 @@ svg[name="PersonWaving"]{
 }
 
 
-.da-isMentionedCozy:after {
+.da-isMentionedCozy:after, .mentioned-xhSam7:before {
 	border-color:var(--atquote);
 	background-color:var(--atquote);
 }
