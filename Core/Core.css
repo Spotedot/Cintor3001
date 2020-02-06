@@ -39,6 +39,11 @@
   }
 }
 
+.numberBadge-2s8kKX, .base-PmTxvP {
+	background-color: var(--primary) !important;
+	color: var(--Black)	!important;
+}
+
 /* 30/01/2020 Updates */
 
 /*Message box */ 
