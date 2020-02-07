@@ -39,6 +39,28 @@
   }
 }
 
+.lookFilled-1Gx00P {
+  background-color: rgba(0,0,0,.5)!important;
+  border: 1.5px solid !important;
+  color: #fff!important;
+}
+
+.lookInverted-2D7oAl {
+	background-color: rgba(0,0,0,.5)!important;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: rgba(0,0,0,.8)!important;
+  border: 1.5px solid !important;
+  border-color: var(--primary) !important;
+  color: #fff!important;
+}
+
+.contents-18-Yxp {
+	color: var(--primary)	!important;
+}
+
+
 .numberBadge-2s8kKX, .base-PmTxvP {
 	background-color: var(--primary) !important;
 	color: var(--Black)	!important;
