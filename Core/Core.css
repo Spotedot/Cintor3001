@@ -39,27 +39,31 @@
   }
 }
 
-.lookFilled-1Gx00P {
-  background-color: rgba(0,0,0,.5)!important;
-  border: 1.5px solid !important;
-  color: #fff!important;
+/* 07/02/2020 Update */
+
+.lookInverted-2D7oAl, .lookFilled-1Gx00P{
+	background-color: rgba(0,0,0,.4)!important;
+	border: 1.5px solid !important;
+	border-color: var(--primary) !important;
+	border-radius: 25px;
 }
 
-.lookInverted-2D7oAl {
-	background-color: rgba(0,0,0,.5)!important;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-  background-color: rgba(0,0,0,.8)!important;
-  border: 1.5px solid !important;
-  border-color: var(--primary) !important;
-  color: #fff!important;
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+	background-color: rgba(0,0,0,.8)!important;
+	border: 1.5px solid !important;
+	border-color: var(--primary) !important;
+	color: #fff!important;
 }
 
 .contents-18-Yxp {
 	color: var(--primary)	!important;
 }
 
+.section-2gLsgF {
+	  background-color: rgba(0,0,0,.7)!important;
+}
+
+/* ----------------------------------------- */
 
 .numberBadge-2s8kKX, .base-PmTxvP {
 	background-color: var(--primary) !important;
