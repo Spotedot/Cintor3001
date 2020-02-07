@@ -742,7 +742,7 @@ svg[name="PersonWaving"]{
 }
 
 #bd-settingspane-container .bd-pfbtn,.bd-detached-css-editor #bd-customcss-attach-controls button,.bd-modal-wrapper .footer button,.bda-slist .bda-footer button,.headerButtonColor-G7_f-V,.lookFilled-1Gx00P.colorBrand-3pXr91,.lookFilled-1Gx00P.colorPrimary-3b3xI6,.lookInverted-2D7oAl.colorBrand-3pXr91,.lookOutlined-3sRXeN.colorBrand-3pXr91,.plugin-settings button,.questionMark-CWEQZn,.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,.tabBar-1E2ExX .primary-3j8BhM {
-  background-color: rgba(0,0,0,.5)!important;
+  background-color: rgba(0,0,0,.3)!important;
   border: 1.5px solid var(--primary)!important;
   color: #fff!important;
 }
@@ -750,8 +750,7 @@ svg[name="PersonWaving"]{
 #bd-settingspane-container .bd-pfbtn:hover,#friends .tab-bar .tab-bar-item.tab-bar-item-primary,.bd-detached-css-editor #bd-customcss-attach-controls button:hover,.bd-modal-wrapper .footer button:hover,.bda-slist .bda-footer button:hover,.headerButtonColor-G7_f-V:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.plugin-settings button:hover,.questionMark-CWEQZn:hover,.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,.tabBar-1E2ExX .primary-3j8BhM:hover,.topPill-30KHOu .itemSelected-1qLhcL {
   color: #fff!important;
   border: 1.5px solid transparent;
-  background-color: var(--primary);
-  background-image: linear-gradient(to right,var(--primaryGradient3),var(--primaryGradient3));
+  background-color: rgba(0,0,0,.8)!important;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 200% 200%;
